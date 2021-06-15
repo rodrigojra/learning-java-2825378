@@ -7,5 +7,11 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         int inputtedNum = scanner.nextInt();
+
+        if (inputtedNum < 5) {
+            System.out.println("Enjoy the luck a friend brings to you");
+        } else {
+            System.out.println("Your shoe selection will make you very happy today");
+        }
     }
 }
